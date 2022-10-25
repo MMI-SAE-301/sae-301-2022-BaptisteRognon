@@ -1,8 +1,10 @@
 <template>
     <div>
-        <LoginLogout.vue/>
+        
+        <LoginLogout/>
     </div>
 </template>
 
-<script>
+<script setup lang="ts">
+import LoginLogout from '@/components/LoginLogout.vue'
 </script>
