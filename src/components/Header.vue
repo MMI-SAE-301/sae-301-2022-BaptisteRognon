@@ -33,7 +33,7 @@
        <li>
         <router-link class="text-red-600 underline" to="/MateriauxFormView">
           lien vers
-          <code class="font-mono">/src/pages/Seconnecter.vue</code>
+          <code class="font-mono">/src/pages/MateriauxFormView.vue</code>
         </router-link>
       </li>
     </ul>
