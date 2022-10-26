@@ -4,9 +4,16 @@ const formKitTailwind = require("@formkit/themes/tailwindcss");
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    // Remplacer tous les breakpoints du projet 
+    screens: {
+      'sm': '640px',
+      'md' : '768px',
+      'lg': '1024',
+      'xl' : '1280'
+    },
     extend: {
 
-      "colorStyles": {
+      "colors": {
         "cadre": "#7E9BA1",
         "blanc": "#FFFFFF",
         "orange": "#EE4F2C",
@@ -23,7 +30,7 @@ module.exports = {
         "jaune1": "#C0B598",
         "rouge_pale": "#DE8484"
       },
-      "fontStyles": {
+      "fontFamily": {
         "Titreh1": "font-JosefinSans font-[700] text-[84px] ",
         "text": "font-JosefinSans font-[400] text-[24px] ",
         "boutonmenu": "font-JosefinSans font-[400] text-[24px] ",
