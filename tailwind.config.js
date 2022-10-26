@@ -12,8 +12,12 @@ module.exports = {
       'xl' : '1280'
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
 
-      "colors": {
+      colors: {
         "cadre": "#7E9BA1",
         "blanc": "#FFFFFF",
         "orange": "#EE4F2C",
@@ -30,7 +34,7 @@ module.exports = {
         "jaune1": "#C0B598",
         "rouge_pale": "#DE8484"
       },
-      "fontFamily": {
+      fontFamily: {
         "Titreh1": "font-JosefinSans font-[700] text-[84px] ",
         "text": "font-JosefinSans font-[400] text-[24px] ",
         "boutonmenu": "font-JosefinSans font-[400] text-[24px] ",
