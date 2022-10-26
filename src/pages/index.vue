@@ -1,5 +1,5 @@
 <template class="background-black">
-  <div name="page d'accueil" >
+  <div name="page d'accueil" class="">
   <div name="entête" class="p-5">
     <div>
     <h1 class="text-2xl font-text_mini_menu">Mes TIK TAK</h1>
@@ -14,9 +14,9 @@
   </div>
 
     <div class="">
-      <h1 class="text-2xl">
+      <p class="text-2xl">
         <code class="font-mono text-base">Achetez Maintenant</code>
-      </h1>
+      </p>
     </div>
   </div>
 
@@ -29,10 +29,12 @@
     </div>
 
     <div class="justify-center">
-    <p>Votre TIK TAK</p>
-    <p>Une Merveille</p>
+      <div class="m-2"> <h2 class="text-2xl">Votre TIK TAK</h2>
+    <h2 class="text-2xl ">Une Merveille</h2>
+  </div>
+   
     <p>Le nom de la marque de montre est TiK•TaK, sa philosophie est un style raffiné, minimaliste et épuré. L’identité visuelle devra être en adéquation avec la marque.</p>
-    <code>Allez voir ! </code>
+    <p class="m-10">Allez voir ! </p>
     <img src="../../img/cercleo.jpg" alt="image de montre"/>
     </div>
 
@@ -41,13 +43,36 @@
     </div>
   </div>
 
-  <div name="article2">
-    <img src="../../public/img/image1.jpg"/>
-    <img src="@/img/image2.jpg"/>
+  <div name="article2" class="flex">
+    <img src="../../public/img/image1.jpg" class="m-2 flex"/>
+    <img src="../../public/img/image2.jpg" class="m-2 flex"/>
+    <p>Devenez Créateur</p>
+    <p>Si vous ne trouvez pas votre Kantatapai, que désiriez-vous de la créer ? </p>
+    <p>Créer ma TIK TAK ! </p>
+  </div>
+
+  <div name="article3" class="p-10">
+    <div>
+    <p>Une relation direct avec vous</p>
+    <img src="../../public/img/ligne.jpg" class="flex"/>
+    <p>L’utilisateur est guidé à travers la nouvelle navigation intégré à la montre. C’est plus la montre qui règle le temps mais c’est vous qui LA réglé. </p>
+    <p>Devenez maître de votre quotidien en vous procurrant votre propre TIK TAK, mais pour cela que diriez-vous de regarder les divers montres déjà produites ? </p>
+    <p>Allez voir ! </p>
+    </div>
+    <img src="../../public/img/image3.jpg" class="flex"/>
+  </div>
+
+  <div name="retour" class="m-3">
+    <p>Vos retours</p>
+    <Card/>
   </div>
 
 
-
-
+<Footer/>
   </div>
 </template>
+
+<script setup lang="ts">
+import Footer from '@/components/Footer.vue'
+
+</script>
