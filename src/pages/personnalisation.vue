@@ -44,13 +44,16 @@
 
 <div name="retour" class="m-3">
     <p>Vos retours</p>
-    <Card/>
+    <div class="justify-center gap-x-5">
+    <MontreCard/>
+    </div>
   </div>
  
  </template>
  <script setup lang="ts">
 
-import FormMateriaux from "../components/FormMateriaux.vue";
+import FormMateriaux from "../components/FormMateriaux.vue"
+import MontreCard from "../components/MontreCard.vue"
 import type { MontreSvg } from "@/types-svg";
 import { ref } from "vue";
 
