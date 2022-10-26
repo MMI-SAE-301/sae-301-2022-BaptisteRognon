@@ -1,40 +1,42 @@
 <template>
   <div>
-   <div class="display:flex">
-      <div class=" text- flex items-center space-x-6">    
-      <li class="flex">
-        <router-link class="text-noir " to="/">
-          <code class="fontfamilly-boutonmenu">TIK TAK</code>
+   <div class="display:flex bg-[url('/img/fond.jpg')]">
+    <li class="flex">
+        <router-link class="text-blanc " to="/">
+          <code class="font-bap">TIK TAK</code>
         </router-link>
       </li>
+      <div class="font-bap flex text-3xl justify-center p-10 space-x-6">    
+      
 
       <li class="flex">
-        <router-link class="text-noir " to="/personnalisation">
-          <code class="font-boutonmenu">Personnalisation</code>
+        <router-link class="text-blanc " to="/personnalisation">
+          <code class="font-bap">Personnalisation</code>
         </router-link>
       </li>
 
        <li class="flex">
-          <router-link class="text-noir font- " to="/Galerie">
-            <code class="font-boutonmenu">Galerie</code>
+          <router-link class="text-blanc  " to="/Galerie">
+            <code class="font-bap">Galerie</code>
           </router-link>
       </li>
 
       <li class="flex">
-        <router-link class="text-noir " to="/Contact">
-          <code class="font-boutonmenu">Contact</code>
+        <router-link class="text-blanc " to="/Contact">
+          <code class="font-bap">Contact</code>
         </router-link>
       </li>
 
        <li class="flex">
-        <router-link class="text-noir " to="/Seconnecter">
-          <code class="font-boutonmenu">Se connecter</code>
+        <router-link class=" " to="/Seconnecter">
+          <img src="../../public/img/profil.jpg"/>
         </router-link>
       </li>
 
     </div>
+    
   </div>
 </div>
   <!-- Affiche les pages -->
-  <router-view class="m-2 border-2 p-2" /> 
+  <router-view class="bg-slate-300" /> 
 </template>
