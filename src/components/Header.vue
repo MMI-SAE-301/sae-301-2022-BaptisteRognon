@@ -1,7 +1,7 @@
 <template>
   <div>
    <div class="display:flex">
-      <div class=" text-noir flex items-center space-x-6">    
+      <div class=" text- flex items-center space-x-6">    
       <li class="flex">
         <router-link class="text-noir " to="/">
           <code class="fontfamilly-boutonmenu">TIK TAK</code>
