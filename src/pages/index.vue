@@ -1,27 +1,27 @@
-<template class="background-black">
-  <div name="page d'accueil" class="">
-  <div name="entête" class="p-5">
+<template>
+  <div name="page d'accueil" >
+  <div name="entête" class="p-5 bg-[url('/img/fond.jpg')]">
     <div>
-    <h1 class="text-2xl font-text_mini_menu">Mes TIK TAK</h1>
-    <h1 class="text-2xl font-text_mini_menu">La montre des hauts</h1>
+    <h1 class="text-2xl text-white  font-text_mini_menu">Mes TIK TAK</h1>
+    <h1 class="text-2xl text-white font-text_mini_menu">La montre des hauts</h1>
   </div>
 
   <div class="p-5 font-text_mini_menu">
-    <p class="">Un luxe classique,</p>
-    <P>pour vous mettre en valeur.</p>
+    <p class="text-white">Un luxe classique,</p>
+    <P class="text-white">pour vous mettre en valeur.</p>
     <br/>
-    <P>Pour cela, il faut mettre le prix</p>  
+    <P class="text-white">Pour cela, il faut mettre le prix</p>  
   </div>
 
     <div class="">
       <p class="text-2xl">
-        <code class="font-mono text-base">Achetez Maintenant</code>
+        <code class="font-mono text-white text-base">Achetez Maintenant</code>
       </p>
     </div>
   </div>
 
   <div name="article1" class="grid grid-cols-3">
-    <div class="justify-center">
+    <div class="justify-center m-10">
       <p>Galerie</p>
       <p>Personnalisation</p>
       <p>Contact</p>
@@ -64,7 +64,9 @@
 
   <div name="retour" class="m-3">
     <p>Vos retours</p>
-    <Card/>
+    <div class="flex justify-center">
+    <AvisCard/><AvisCard/><AvisCard/><AvisCard/>
+    </div>
   </div>
 
 
@@ -74,5 +76,6 @@
 
 <script setup lang="ts">
 import Footer from '@/components/Footer.vue'
+import AvisCard from '@/components/AvisCard.vue';
 
 </script>
