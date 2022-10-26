@@ -4,7 +4,7 @@
       <div class=" text-noir flex items-center space-x-6">    
       <li class="flex">
         <router-link class="text-noir " to="/">
-          <code class="font-boutonmenu">TIK TAK</code>
+          <code class="fontfamilly-boutonmenu">TIK TAK</code>
         </router-link>
       </li>
 
