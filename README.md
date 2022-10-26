@@ -5,7 +5,7 @@
 - **URL maquette Figma:**
 - **URL publique du site :**
 - **URL projet Supabase :**
-  - [ ] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
+  - [X] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
 
@@ -13,9 +13,9 @@
 
 Vous avez rendu à la racine du projet :
 
-- [ ] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
-- [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
-- [ ] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
+- [X] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
+- [X] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
+- [x] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
@@ -31,33 +31,33 @@ Noté sur 40.
 - Code et Commit (0-2-4-6pts)
 - Code HTML spécifiquement sémantique et accessible (0-1-2pts)
 
-- [ ] usage de Classes utilitaires (1pt)
-  - lien vers sa définition
-  - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
-  - liens
-- Technique CSS (0-1-2pts)
-  - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
+- [X] usage de Classes utilitaires (1pt)
+  - [X] lien vers sa définition
+  - [X] lien vers son usage
+- [X] Composants graphiques (0-1-2pts)
+  - [X]liens
+- [X] Technique CSS (0-1-2pts)
+  - [X] Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
     - ...
-  - liens
-- Mise en page CSS (0-1-2pts)
-  - Quelles techniques (Grilles Flex...)
+  - [X] liens
+- [X] Mise en page CSS (0-1-2pts)
+  - [X] Quelles techniques (Grilles Flex...)
     - ...
-  - liens
+  - [X] liens
   - [ ] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
-  - [ ] Plusieurs tailles
+  - [X] Plusieurs tailles
     - Lesquelles...
 - [ ] Dark Mode (0-1-2pts)
   - [ ] Simple usage de 'dark:'
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
     - liens
-- "tailwin.config.js" (0-1-2pts)
-  - [ ] usage basique couleurs/fonts
-  - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
+- [X] "tailwin.config.js" (0-1-2pts)
+  - [X] usage basique couleurs/fonts
+  - [X] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
     - liens
-- Composants "accessibles" (0-1-2pts)
+- [] Composants "accessibles" (0-1-2pts)
   - [ ] textes "accessibles" (eg. 'sr-only')
   - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
 
