@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       
       backgroundImage: {
+
         'fond': "url('img/fond.jpg')"
       },
 
@@ -36,14 +37,8 @@ module.exports = {
         "rouge_pale": "#DE8484"
       },
       fontFamily: {
-        "Titreh1": "font-JosefinSans font-[700] text-[84px] ",
-        "text": "font-JosefinSans font-[400] text-[24px] ",
-        "boutonmenu": "font-JosefinSans font-[400] text-[24px] ",
-        "text_mini_menu": "font-JosefinSans font-[300] text-[24px] ",
-        "Titreh2": "font-JosefinSans font-[500] text-[80px] ",
-        "boutonlien": "font-JosefinSans font-[400] text-[24px] ",
-        "Titreh3": "font-JosefinSans font-[500] text-[41px] "
-      }
+        'bap': ['Josefin Sans', 'sans-serif']
+      },
     }
   },
   plugins: [
