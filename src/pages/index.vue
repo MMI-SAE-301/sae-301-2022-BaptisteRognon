@@ -31,7 +31,7 @@
     <div class="justify-center">
       <div class="m-2"> <h2 class="text-2xl">Votre TIK TAK</h2>
     <h2 class="text-2xl ">Une Merveille</h2>
-  </div>
+      </div>
    
     <p>Le nom de la marque de montre est TiK•TaK, sa philosophie est un style raffiné, minimaliste et épuré. L’identité visuelle devra être en adéquation avec la marque.</p>
     <p class="m-10">Allez voir ! </p>
