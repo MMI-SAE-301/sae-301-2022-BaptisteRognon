@@ -1,5 +1,5 @@
-<template>
-  <div class="">
+<template class="background-black">
+  <div name="page d'accueil" >
     <h1 class="text-2xl">Mes TIK TAK</h1>
     <h1 class="text-2xl">La montre des hauts</h1>
   </div>

@@ -1,40 +1,40 @@
 <template>
-   <div class="flex">
-    <ul>
-    
-      <li>
+  <div>
+   <div class="display:flex">
+      <div class=" text-noir flex items-center space-x-6">    
+      <li class="flex">
         <router-link class="text-noir " to="/">
-          
-          <code class="font-mono">TIK TAK</code>
+          <code class="font-boutonmenu">TIK TAK</code>
         </router-link>
       </li>
-      <li>
- <router-link class="text-noir " to="/personnalisation">
 
- <code class="font-boutonmenu">Personnalisation</code>
- </router-link>
- </li>
- <li>
- <router-link class="text-noir font- " to="/Galerie">
+      <li class="flex">
+        <router-link class="text-noir " to="/personnalisation">
+          <code class="font-boutonmenu">Personnalisation</code>
+        </router-link>
+      </li>
 
- <code class="font-mono">Galerie</code>
- </router-link>
- </li>
- <li>
+       <li class="flex">
+          <router-link class="text-noir font- " to="/Galerie">
+            <code class="font-boutonmenu">Galerie</code>
+          </router-link>
+      </li>
+
+      <li class="flex">
         <router-link class="text-noir " to="/Contact">
-         
-          <code class="font-mono">Contact</code>
+          <code class="font-boutonmenu">Contact</code>
         </router-link>
       </li>
-       <li>
-        <router-link class="text-noir " to="/Seconnecter">
-        
-          <code class="font-mono">Se connecter</code>
-        </router-link>
-      </li>
-    </ul>
-</div>
 
+       <li class="flex">
+        <router-link class="text-noir " to="/Seconnecter">
+          <code class="font-boutonmenu">Se connecter</code>
+        </router-link>
+      </li>
+
+    </div>
+  </div>
+</div>
   <!-- Affiche les pages -->
   <router-view class="m-2 border-2 p-2" /> 
 </template>
