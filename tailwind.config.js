@@ -1,4 +1,5 @@
 const formKitTailwind = require("@formkit/themes/tailwindcss");
+const { url } = require("inspector");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -12,9 +13,9 @@ module.exports = {
       'xl' : '1280'
     },
     extend: {
+      
       backgroundImage: {
-        'hero-pattern': "url('/img/hero-pattern.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'fond': "url('img/fond.jpg')"
       },
 
       colors: {
