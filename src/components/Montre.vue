@@ -7,6 +7,7 @@ withDefaults(defineProps<Montre>(),{
 });
 </script>
 <template>
+    <div class="bg-red">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.41 711">
        
         <g id="bracelet"><path  d="M550.41,73.36S602.58,53.07,649,54.52s95.65,15.94,95.65,15.94-29,271-26.09,349.28S746.06,727,746.06,727s-47.83,21.73-92.76,18.84-97.1-17.4-97.1-17.4S580.09,489.3,580.09,395.1,550.41,73.36,550.41,73.36Z" 
@@ -18,16 +19,20 @@ withDefaults(defineProps<Montre>(),{
         </g>
         <g id="boitier" :fill = "boitier" stroke="black" stroke-width="0.5px" stroke-miterlimit="10" class="boitier">
             <rect class="boitier" x="0.25" y="130.63" width="379.91" height="453.62" rx="80.8"/>
-            <rect class="boitier" x="38.43" y="172.53" width="303.55" height="369.83" rx="65.21"/>
+            
         </g>
         <g id="ecran" :fill = "ecran" stroke="black" stroke-width="0.5px" stroke-miterlimit="10" class="ecran">
+            <rect class="boitier" x="38.43" y="172.53" width="303.55" height="369.83" rx="65.21"/>
+            
+        </g>
+        <g>
             <text class="cls-3" transform="translate(59.96 329.78)">1O:1O</text>
             <text class="cls-4" transform="translate(112.05 222.03)">
                 <tspan xml:space="preserve">Lun.  24 oct.</tspan>
             </text><text class="cls-5" transform="translate(137.72 511.45)">TiK•TaK</text>
         </g>
     </svg>
-        
+        </div>
 </template>
 
 <style>

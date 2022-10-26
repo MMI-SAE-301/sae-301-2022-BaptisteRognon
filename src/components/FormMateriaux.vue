@@ -12,7 +12,7 @@ const montre = ref<Montre>(props.data ?? {});
 </script>
 
 <template>
-    <div class="p-2">
+    <div class="p-10 bg-slate-500">
         <div class=" w-64">
             <SvgProfil v-bind="montre" id="montre" />
         </div>
