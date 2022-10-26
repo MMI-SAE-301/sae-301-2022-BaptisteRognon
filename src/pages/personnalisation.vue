@@ -18,9 +18,7 @@
     <img src="../../img/cercleo.jpg" alt="image de montre"/>
     </div>
 
-    <div class="justify-center">
-      <img src="../../public/img/tiktakrectanlge.png"/>
-    </div>
+   
   </div>
 
         
