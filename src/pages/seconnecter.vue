@@ -36,7 +36,7 @@ import { supabase, user } from '../supabase';
             <div class="hidden lg:block lg:mt-9" >
                 <div class="w-96 bg-jaune-0 h-470 rounded-xl">
                     <div class="flex justify-center">
-                        <img class="w-44 mt-9" src="/images/tk.png" />
+                        
                     </div>
                     <div class="">
                         <p class="text-black font-bap  font-inter font-semibold text-center mt-4">Lorem ipsum dolor</p>

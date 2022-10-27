@@ -34,7 +34,6 @@
       </div>
       <p class="font-bap">Le nom de la marque de montre est TiK•TaK, sa philosophie est un style raffiné, minimaliste et épuré. L’identité visuelle devra être en adéquation avec la marque.</p>
       <p class="m-10 font-bap">Allez voir ! </p>
-      <img src="../../img/cercleo.jpg" alt="image de montre"/>
     </div>
 
     <div class="justify-center">

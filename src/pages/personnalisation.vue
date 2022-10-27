@@ -13,9 +13,9 @@
     <h2 class="text-2xl font-bap ">le Créateur</h2>
       </div>
    
-    <p class="font-bap" >Si vous ne trouvez pas votre Kantatapai, que désiriez-vpus de la créer ? Vous pouvez personnaliser vos deux crocs avec deux couleurs différentes. </p>
+    <p class="font-bap" >Si vous ne trouvez pa
+      s votre Kantatapai, que désiriez-vpus de la créer ? Vous pouvez personnaliser vos deux crocs avec deux couleurs différentes. </p>
     <p class="m-10 font-bap">Allez voir ! </p>
-    <img src="../../img/cercleo.jpg" alt="image de montre"/>
     </div>
 
    
