@@ -16,13 +16,13 @@
       </li>
 
        <li class="flex">
-          <router-link class="text-blanc  " to="/Galerie">
-            <code class="font-bap">Galerie</code>
+          <router-link class="text-blanc  " to="/">
+            <code class="font-bap">Accueil</code>
           </router-link>
       </li>
 
       <li class="flex">
-        <router-link class="text-blanc " to="/Contact">
+        <router-link class="text-blanc " to="">
           <code class="font-bap">Contact</code>
         </router-link>
       </li>
