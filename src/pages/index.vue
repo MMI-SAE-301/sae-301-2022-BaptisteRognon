@@ -1,6 +1,6 @@
 <template>
-  <div name="page d'accueil" class="bg-blue-600" >
-    <div name="entête" class=" bg-[url('/img/fond.jpg')]">
+  <div name="page d'accueil" class="bg-gris_clair" >
+    <div name="entête" class=" grid grid-cols-2 bg-gris_fonce">
       <div>
         <h1 class="text-2xl text-white  font-bap">Mes TIK TAK</h1>
         <h1 class="text-2xl text-white font-bap">La montre des hauts</h1>
@@ -13,7 +13,7 @@
         <P class="text-white font-bap">Pour cela, il faut mettre le prix</p>  
       </div>
 
-      <div class="">
+      <div class=" p-10">
         <p class="text-2xl">
           <code class=" text-white font-bap">Achetez Maintenant</code>
         </p>
@@ -63,7 +63,7 @@
     </div>
 
     <div name="retour" class="">
-      <p class="font-bap">Vos retours</p>
+      <p class="font-bap  text-2xl">Vos retours</p>
       <div class="flex justify-center ">
         <AvisCard/>
       </div>
@@ -74,6 +74,7 @@
 </template>
 
 <script setup lang="ts">
+import { supabase, user } from '../supabase';
 import Footer from '@/components/Footer.vue'
 import AvisCard from '@/components/AvisCard.vue';
 
