@@ -45,9 +45,9 @@ Noté sur 40.
   - [X] Quelles techniques (Grilles Flex...)
     - ...
   - [X] liens
-  - [ ] Mise en page fluide
+  - [X] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
-  - [X] Plusieurs tailles
+  - [] Plusieurs tailles
     - Lesquelles...
 - [ ] Dark Mode (0-1-2pts)
   - [ ] Simple usage de 'dark:'
