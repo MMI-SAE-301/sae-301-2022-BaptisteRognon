@@ -1,6 +1,6 @@
 <template> 
 <div class="justify-center grid grid-cols-3">
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
@@ -12,7 +12,7 @@
         </figcaption>
     </div>
 
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
@@ -24,7 +24,7 @@
         </figcaption>
     </div>
 
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
@@ -36,7 +36,7 @@
         </figcaption>
     </div>
 
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
@@ -48,7 +48,7 @@
         </figcaption>
     </div>
 
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
@@ -60,7 +60,7 @@
         </figcaption>
     </div>
 
-    <div class="m-3 bg-red-500" width="20px" height="20px" >
+    <div class="m-3 bg-blanc font-bap" width="20px" height="20px" >
         <img src="../../public/img/Avatar1.jpg" alt="utilisateur" >       
          <figcaption class="flex flex-col relative px-5 py-7 border-2 border-t-0 rounded-b-lg">
             <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
